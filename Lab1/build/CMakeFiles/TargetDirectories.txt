@@ -1,5 +1,0 @@
-/home/linuser/desktop/OS_Labs/Lab1/build/CMakeFiles/io_helper.dir
-/home/linuser/desktop/OS_Labs/Lab1/build/CMakeFiles/main.dir
-/home/linuser/desktop/OS_Labs/Lab1/build/CMakeFiles/child.dir
-/home/linuser/desktop/OS_Labs/Lab1/build/CMakeFiles/edit_cache.dir
-/home/linuser/desktop/OS_Labs/Lab1/build/CMakeFiles/rebuild_cache.dir
