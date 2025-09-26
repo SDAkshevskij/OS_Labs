@@ -1,0 +1,2 @@
+/usr/bin/ar qc libio_helper.a CMakeFiles/io_helper.dir/src/io_helper.cpp.o
+/usr/bin/ranlib libio_helper.a
