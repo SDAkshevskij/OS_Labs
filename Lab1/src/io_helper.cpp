@@ -56,6 +56,7 @@ void reverse_string(std::string &str){
 std::string double_to_string(const double num){
     int intNum = (int)num;
     std::string intPart = "";
+
     if(num < 0){
         intNum = -intNum;
         intPart += '-';
@@ -64,15 +65,18 @@ std::string double_to_string(const double num){
         intPart += (intNum % 10) + '0';
         intNum /= 10;
     }
+
     reverse_string(intPart);
     int accuracy = 4;
     if(intPart == ""){
         intPart += '0';
     }
+    
     double fractNum = abs(num) - (int)num;
     if(fractNum == 0) return intPart;
     intPart += '.';
     std::string fractPart = "";
+
     for(int i = 0; i < accuracy; i++){
         if(fractNum - (int)fractNum == 0){
             break;
